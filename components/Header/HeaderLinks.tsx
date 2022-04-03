@@ -13,7 +13,7 @@ const HeaderLinks = () => {
         <Link href="/blog">blog</Link>
       </li>
       <li className="mx-5">
-        <Link href="/">contact</Link>
+        <Link href="/contact">contact</Link>
       </li>
     </ul>
   );
