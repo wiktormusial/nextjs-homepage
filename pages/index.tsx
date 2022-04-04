@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Home: NextPage = () => {
   return (
-    <div className="text-center mt-5 p-5 md:p-0">
+    <div className="text-center mt-10 px-5 md:p-0">
       <Image
         src="/albumtemp.JPG"
         height={500}
