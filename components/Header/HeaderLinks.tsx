@@ -10,9 +10,6 @@ const HeaderLinks = () => {
         <Link href="/projects">projects</Link>
       </li>
       <li className="mx-5">
-        <Link href="/blog">blog</Link>
-      </li>
-      <li className="mx-5">
         <Link href="/contact">contact</Link>
       </li>
     </ul>
