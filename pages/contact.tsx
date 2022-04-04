@@ -1,23 +1,18 @@
 import { NextPage } from "next/types";
-import { BsGithub } from "react-icons/bs";
-import { BsTwitter } from "react-icons/bs";
 
 const Contact: NextPage = () => {
   return (
-    <div className="grid justify-items-center mt-5">
-      <h1 className="text-2xl mb-5">Send me a message</h1>
-      <div className="flex">
+    <div className="px-60 mt-10">
+      <h1 className="text-2xl mb-2">Contact</h1>
+      <p>
+        Feel free to contact with me via email:{" "}
         <a
-          href="https://github.com/wiktormusial"
-          target="_blank"
-          rel="noreferrer"
+          className="text-blue-500 underline"
+          href="mailto:wiktormusial@icloud.com"
         >
-          <BsGithub className="text-5xl mr-5 transition-all hover:fill-gray-700 cursor-pointer" />
+          wiktormusial@icloud.com
         </a>
-        <a href="https://twitter.com/wikmus" target="_blank" rel="noreferrer">
-          <BsTwitter className="text-5xl mr-5 transition-all hover:fill-gray-700 cursor-pointer" />
-        </a>
-      </div>
+      </p>
     </div>
   );
 };
