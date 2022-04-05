@@ -1,18 +1,21 @@
 import Image from "next/image";
-import { AiFillGithub } from "react-icons/ai";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 const ProjectList = () => {
   return (
     <div className="px-5 lg:px-60 mt-10">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         <div className="text-left ">
-          <Image
-            src="/1.png"
-            height={250}
-            width={650}
-            className="object-cover rounded-t"
-            alt="Car staying in front of white house"
-          />
+          <Zoom>
+            <Image
+              src="/1.png"
+              height={250}
+              width={650}
+              className="object-cover rounded-t"
+              alt="Car staying in front of white house"
+            />
+          </Zoom>
           <h1 className="text-xl mt-2">PL-UA Flashcards</h1>
           <p className="text-justify">
             Single Page App with 1000 most popular Polish words with definitions
@@ -26,13 +29,15 @@ const ProjectList = () => {
           </div>
         </div>
         <div className="text-left">
-          <Image
-            src="/4.jpeg"
-            height={250}
-            width={650}
-            className="object-cover rounded-t"
-            alt="Car staying in front of white house"
-          />
+          <Zoom>
+            <Image
+              src="/4.jpeg"
+              height={250}
+              width={650}
+              className="object-cover rounded-t"
+              alt="Car staying in front of white house"
+            />
+          </Zoom>
           <h1 className="text-xl mt-2">Fit file viewer</h1>
           <p className="text-justify">
             Client for viewing files from sport wearables e.g. Garmin or Wahoo.
@@ -45,13 +50,15 @@ const ProjectList = () => {
           </div>
         </div>
         <div className="text-left">
-          <Image
-            src="/2.jpeg"
-            height={250}
-            width={650}
-            className="object-cover rounded-t"
-            alt="Car staying in front of white house"
-          />
+          <Zoom>
+            <Image
+              src="/2.jpeg"
+              height={250}
+              width={650}
+              className="object-cover rounded-t"
+              alt="Car staying in front of white house"
+            />
+          </Zoom>
           <h1 className="text-xl mt-2">Whapi</h1>
           <p className="text-justify">
             Design for simple wheater client created to pratice some of Material
@@ -64,13 +71,15 @@ const ProjectList = () => {
           </div>
         </div>
         <div className="text-left">
-          <Image
-            src="/5.png"
-            height={250}
-            width={650}
-            className="object-cover rounded-t"
-            alt="Car staying in front of white house"
-          />
+          <Zoom>
+            <Image
+              src="/5.png"
+              height={250}
+              width={650}
+              className="object-cover rounded-t"
+              alt="Car staying in front of white house"
+            />
+          </Zoom>
           <h1 className="text-xl mt-2">Wordie</h1>
           <p className="text-justify">
             CLone of popular game Wordle which is a web-based puzzle that
