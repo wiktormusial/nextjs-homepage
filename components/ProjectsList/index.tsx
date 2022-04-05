@@ -82,9 +82,8 @@ const ProjectList = () => {
           </Zoom>
           <h1 className="text-xl mt-2">Wordie</h1>
           <p className="text-justify">
-            CLone of popular game Wordle which is a web-based puzzle that
-            requires players to guess a valid five-letter word in six tries or
-            less.
+            Clone of Wordle which is a web-based puzzle that requires players to
+            guess a valid five-letter word in six tries or less.
           </p>
           <div className="float-right mt-2">
             <a href="https://github.com/wiktormusial/wordie">
