@@ -20,7 +20,7 @@ const Contact: NextPage = () => {
       <h1 className="text-2xl mb-2">Social Links</h1>
       <ul>
         <li>
-          Twitter{" "}
+          Twitter:{" "}
           <a
             className="text-blue-500 underline"
             href="https://twitter.com/wikmus"
@@ -31,7 +31,7 @@ const Contact: NextPage = () => {
           </a>
         </li>
         <li>
-          Github{" "}
+          Github:{" "}
           <a
             className="text-blue-500 underline"
             href="https://github.com/wiktormusial"
