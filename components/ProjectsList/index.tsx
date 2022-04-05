@@ -3,20 +3,20 @@ import Image from "next/image";
 const ProjectList = () => {
   return (
     <div className="px-5 lg:px-60 mt-10">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         <div className="text-left ">
           <Image
-            src="/albumtemp.JPG"
+            src="/1.png"
             height={250}
             width={650}
-            className="object-cover object-top rounded-t"
+            className="object-cover rounded-t"
             alt="Car staying in front of white house"
           />
-          <h1 className="text-xl mt-2">Test test</h1>
+          <h1 className="text-xl mt-2">PL-UA Flashcards</h1>
           <p className="text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            quis commodo sapien. Aliquam vel ex velit. Quisque vehicula libero
-            rutrum bibendum blandit.
+            Single Page App with 1000 most popular Polish words with definitions
+            translated to Ukrainian. Words are collected from top 1000 most
+            popular polish words.
           </p>
           <div className="text-right">
             <button className="text-sm">READ MORE</button>
@@ -24,17 +24,16 @@ const ProjectList = () => {
         </div>
         <div className="text-left">
           <Image
-            src="/albumtemp.JPG"
+            src="/4.jpeg"
             height={250}
             width={650}
-            className="object-cover object-top rounded-t"
+            className="object-cover rounded-t"
             alt="Car staying in front of white house"
           />
-          <h1 className="text-xl mt-2">Test test</h1>
+          <h1 className="text-xl mt-2">Fit file viewer</h1>
           <p className="text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            quis commodo sapien. Aliquam vel ex velit. Quisque vehicula libero
-            rutrum bibendum blandit.
+            Client for viewing files from sport wearables e.g. Garmin or Wahoo.
+            In this purpouse used for road cycling.
           </p>
           <div className="text-right">
             <button className="text-sm">READ MORE</button>
@@ -42,17 +41,16 @@ const ProjectList = () => {
         </div>
         <div className="text-left">
           <Image
-            src="/albumtemp.JPG"
+            src="/2.jpeg"
             height={250}
             width={650}
-            className="object-cover object-top rounded-t"
+            className="object-cover rounded-t"
             alt="Car staying in front of white house"
           />
-          <h1 className="text-xl mt-2">Test test</h1>
+          <h1 className="text-xl mt-2">Whapi</h1>
           <p className="text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            quis commodo sapien. Aliquam vel ex velit. Quisque vehicula libero
-            rutrum bibendum blandit.
+            Design for simple wheater client created to pratice some of Material
+            Design concepts. Provided with mobile app.
           </p>
           <div className="text-right">
             <button className="text-sm">READ MORE</button>
@@ -60,20 +58,19 @@ const ProjectList = () => {
         </div>
         <div className="text-left">
           <Image
-            src="/albumtemp.JPG"
+            src="/5.png"
             height={250}
             width={650}
-            className="object-cover object-top rounded-t"
+            className="object-cover rounded-t"
             alt="Car staying in front of white house"
           />
-          <h1 className="text-xl mt-2">Test test</h1>
+          <h1 className="text-xl mt-2">Wordie</h1>
           <p className="text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-            quis commodo sapien. Aliquam vel ex velit. Quisque vehicula libero
-            rutrum bibendum blandit.
+            Wordle is a daily word game you can find online here. It's fun,
+            simple and, like a crossword, can only be played once a day.
           </p>
           <div className="text-right">
-            <button className="text-sm">READ MORE</button>
+            <button className="text-sm"></button>
           </div>
         </div>
       </div>
