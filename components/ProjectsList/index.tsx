@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { AiFillGithub } from "react-icons/ai";
 
 const ProjectList = () => {
   return (
@@ -18,8 +19,10 @@ const ProjectList = () => {
             translated to Ukrainian. Words are collected from top 1000 most
             popular polish words.
           </p>
-          <div className="text-right">
-            <button className="text-sm">READ MORE</button>
+          <div className="float-right mt-2">
+            <a href="https://github.com/wiktormusial/pl-ua-flashcards">
+              <button className="text-sm">SEE MORE</button>
+            </a>
           </div>
         </div>
         <div className="text-left">
@@ -35,8 +38,10 @@ const ProjectList = () => {
             Client for viewing files from sport wearables e.g. Garmin or Wahoo.
             In this purpouse used for road cycling.
           </p>
-          <div className="text-right">
-            <button className="text-sm">READ MORE</button>
+          <div className="float-right mt-2">
+            <a href="https://github.com/wiktormusial/fitfileclient">
+              <button className="text-sm">SEE MORE</button>
+            </a>
           </div>
         </div>
         <div className="text-left">
@@ -52,8 +57,10 @@ const ProjectList = () => {
             Design for simple wheater client created to pratice some of Material
             Design concepts. Provided with mobile app.
           </p>
-          <div className="text-right">
-            <button className="text-sm">READ MORE</button>
+          <div className="float-right mt-2">
+            <a href="https://github.com/wiktormusial/whapi">
+              <button className="text-sm">SEE MORE</button>
+            </a>
           </div>
         </div>
         <div className="text-left">
@@ -66,11 +73,14 @@ const ProjectList = () => {
           />
           <h1 className="text-xl mt-2">Wordie</h1>
           <p className="text-justify">
-            Wordle is a daily word game you can find online here. It's fun,
-            simple and, like a crossword, can only be played once a day.
+            CLone of popular game Wordle which is a web-based puzzle that
+            requires players to guess a valid five-letter word in six tries or
+            less.
           </p>
-          <div className="text-right">
-            <button className="text-sm"></button>
+          <div className="float-right mt-2">
+            <a href="https://github.com/wiktormusial/wordie">
+              <button className="text-sm">SEE MORE</button>
+            </a>
           </div>
         </div>
       </div>
