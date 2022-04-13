@@ -13,7 +13,7 @@ const Home: NextPage<Props> = () => {
       <Head>
         <title>Projects</title>
       </Head>
-      <ProjectList />;
+      <ProjectList />
     </>
   );
 };
