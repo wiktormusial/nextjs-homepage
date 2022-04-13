@@ -4,13 +4,12 @@ import Image from "next/image";
 
 const Home: NextPage = () => {
   return (
-    <div className="text-center mt-10 px-5 md:p-0">
+    <div className="px-5 mt-10 text-center md:p-0">
       <Head>
-        <title>wiktor musial</title>
+        <title>Wiktor Musial</title>
       </Head>
-
       <Image
-        src="/albumtemp.JPG"
+        src="https://wiktormusial.s3.eu-central-1.amazonaws.com/headphoto.jpeg"
         height={500}
         width={650}
         alt="Car staying in front of white house"

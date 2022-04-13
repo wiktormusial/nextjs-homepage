@@ -5,11 +5,11 @@ import "react-medium-image-zoom/dist/styles.css";
 const ProjectList = () => {
   return (
     <div className="px-5 lg:px-60 mt-10">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div className="grid grid-cols-1 justify-items-stretch md:grid-cols-2 gap-10">
         <div className="text-left ">
           <Zoom>
             <Image
-              src="/1.png"
+              src="https://wiktormusial.s3.eu-central-1.amazonaws.com/1.png"
               height={250}
               width={650}
               className="object-cover rounded-t"
@@ -31,7 +31,7 @@ const ProjectList = () => {
         <div className="text-left">
           <Zoom>
             <Image
-              src="/4.jpeg"
+              src="https://wiktormusial.s3.eu-central-1.amazonaws.com/4.jpeg"
               height={250}
               width={650}
               className="object-cover rounded-t"
@@ -52,7 +52,7 @@ const ProjectList = () => {
         <div className="text-left">
           <Zoom>
             <Image
-              src="/2.jpeg"
+              src="https://wiktormusial.s3.eu-central-1.amazonaws.com/2.jpeg"
               height={250}
               width={650}
               className="object-cover rounded-t"
@@ -73,7 +73,7 @@ const ProjectList = () => {
         <div className="text-left">
           <Zoom>
             <Image
-              src="/5.png"
+              src="https://wiktormusial.s3.eu-central-1.amazonaws.com/5.png"
               height={250}
               width={650}
               className="object-cover rounded-t"
